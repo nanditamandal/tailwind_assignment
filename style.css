@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.commonPtagStyle{
+    @apply text-center text-sm font-normal text-[#87878A]
+}
+
+.commonH5tagStyle{
+    @apply text-[#133063] font-semibold text-2xl  text-center pb-10
+}
+.commonHtag{
+    @apply text-[#133063] text-4xl my-5 font-bold
+}
+.commonBox{
+    @apply bg-slate-50 shadow-md mb-10 w-[523px] h-[191px] mt-5
+}
+.commonPtag{
+    @apply text-[#87878A] text-sm font-normal
+}
